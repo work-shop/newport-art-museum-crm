@@ -1,0 +1,24 @@
+# List files for git to ignore in version controll
+
+# MacOS specific ignores.
+
+.DS_Store
+
+# Salesforce specific ignores.
+
+.sfdx
+.project
+.salesforce
+
+# NodeJS and NPM related ignores.
+
+node_modules
+
+# Additional project-specific ignores.
+
+.classpath
+.idea
+.tern-project
+.settings
+selenium-client-jars/
+test/artifacts
