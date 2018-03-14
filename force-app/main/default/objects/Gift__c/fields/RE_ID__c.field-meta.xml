@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RE_ID__c</fullName>
+    <description>The Raiser's Edge ID of a given gift record. We use this as a sanity check, to make sure any imported records from RE correspond to the appropriate in Salesforce. New records, created post RE import, will not carry any value in this field!</description>
+    <externalId>false</externalId>
+    <label>Raiser's Edge ID</label>
+    <length>32</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

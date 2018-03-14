@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Art</fullName>
+        <default>false</default>
+        <label>Art</label>
+    </customValue>
+    <customValue>
+        <fullName>Bequest</fullName>
+        <default>false</default>
+        <label>Bequest</label>
+    </customValue>
+    <customValue>
+        <fullName>Cash</fullName>
+        <default>true</default>
+        <label>Cash</label>
+    </customValue>
+    <customValue>
+        <fullName>Gift In Kind</fullName>
+        <default>false</default>
+        <label>Gift In Kind</label>
+    </customValue>
+    <customValue>
+        <fullName>Pledge</fullName>
+        <default>false</default>
+        <label>Pledge</label>
+    </customValue>
+    <customValue>
+        <fullName>Pledge Payment</fullName>
+        <default>false</default>
+        <label>Pledge Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Stock</fullName>
+        <default>false</default>
+        <label>Stock</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>This picklist specifies possible types of gifts.</description>
+    <masterLabel>Gift – Gift Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

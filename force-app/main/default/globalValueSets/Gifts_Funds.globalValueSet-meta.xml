@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Annual Fund</fullName>
+        <default>true</default>
+        <label>Annual Fund</label>
+    </customValue>
+    <customValue>
+        <fullName>Artist in Residence</fullName>
+        <default>false</default>
+        <label>Artist in Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Exhibit / Curatorial</fullName>
+        <default>false</default>
+        <label>Exhibit / Curatorial</label>
+    </customValue>
+    <customValue>
+        <fullName>Grants</fullName>
+        <default>false</default>
+        <label>Grants</label>
+    </customValue>
+    <customValue>
+        <fullName>Membership</fullName>
+        <default>false</default>
+        <label>Membership</label>
+    </customValue>
+    <customValue>
+        <fullName>Photo Guild</fullName>
+        <default>false</default>
+        <label>Photo Guild</label>
+    </customValue>
+    <customValue>
+        <fullName>Program Fund</fullName>
+        <default>false</default>
+        <label>Program Fund</label>
+    </customValue>
+    <customValue>
+        <fullName>Summer Gala</fullName>
+        <default>false</default>
+        <label>Summer Gala</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology</fullName>
+        <default>false</default>
+        <label>Technology</label>
+    </customValue>
+    <customValue>
+        <fullName>Wet Paint</fullName>
+        <default>false</default>
+        <label>Wet Paint</label>
+    </customValue>
+    <description>This represents the different types of funds that gift can fall into.</description>
+    <masterLabel>Gifts – Funds</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

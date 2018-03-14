@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>B&amp;B</fullName>
+        <default>false</default>
+        <label>B&amp;B</label>
+    </customValue>
+    <customValue>
+        <fullName>Benefactor</fullName>
+        <default>false</default>
+        <label>Benefactor</label>
+    </customValue>
+    <customValue>
+        <fullName>Council</fullName>
+        <default>false</default>
+        <label>Council</label>
+    </customValue>
+    <customValue>
+        <fullName>Faculty</fullName>
+        <default>false</default>
+        <label>Faculty</label>
+    </customValue>
+    <customValue>
+        <fullName>Household</fullName>
+        <default>false</default>
+        <label>Household</label>
+    </customValue>
+    <customValue>
+        <fullName>Individual</fullName>
+        <default>true</default>
+        <label>Individual</label>
+    </customValue>
+    <customValue>
+        <fullName>Institutional</fullName>
+        <default>false</default>
+        <label>Institutional</label>
+    </customValue>
+    <customValue>
+        <fullName>Life</fullName>
+        <default>false</default>
+        <label>Life</label>
+    </customValue>
+    <customValue>
+        <fullName>Military</fullName>
+        <default>false</default>
+        <label>Military</label>
+    </customValue>
+    <customValue>
+        <fullName>Military Household</fullName>
+        <default>false</default>
+        <label>Military Household</label>
+    </customValue>
+    <customValue>
+        <fullName>Patron</fullName>
+        <default>false</default>
+        <label>Patron</label>
+    </customValue>
+    <customValue>
+        <fullName>Photo Guild</fullName>
+        <default>false</default>
+        <label>Photo Guild</label>
+    </customValue>
+    <customValue>
+        <fullName>Senior</fullName>
+        <default>false</default>
+        <label>Senior</label>
+    </customValue>
+    <customValue>
+        <fullName>Senior Household</fullName>
+        <default>false</default>
+        <label>Senior Household</label>
+    </customValue>
+    <customValue>
+        <fullName>Staff</fullName>
+        <default>false</default>
+        <label>Staff</label>
+    </customValue>
+    <customValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </customValue>
+    <customValue>
+        <fullName>Supporting</fullName>
+        <default>false</default>
+        <label>Supporting</label>
+    </customValue>
+    <customValue>
+        <fullName>University</fullName>
+        <default>false</default>
+        <label>University</label>
+    </customValue>
+    <description>Membership Categories represent the different types of memberships that the museum offers to people.</description>
+    <masterLabel>Membership – Membership Categories</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

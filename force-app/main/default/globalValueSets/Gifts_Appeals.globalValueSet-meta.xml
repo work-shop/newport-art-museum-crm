@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Annual Fund</fullName>
+        <default>true</default>
+        <label>Annual Fund</label>
+    </customValue>
+    <customValue>
+        <fullName>Annual Fund – Trustee</fullName>
+        <default>false</default>
+        <label>Annual Fund – Trustee</label>
+    </customValue>
+    <customValue>
+        <fullName>Arts Campus Plan</fullName>
+        <default>false</default>
+        <label>Arts Campus Plan</label>
+    </customValue>
+    <customValue>
+        <fullName>Capital Improvements</fullName>
+        <default>false</default>
+        <label>Capital Improvements</label>
+    </customValue>
+    <customValue>
+        <fullName>Cultivation</fullName>
+        <default>false</default>
+        <label>Cultivation</label>
+    </customValue>
+    <customValue>
+        <fullName>Curatorial</fullName>
+        <default>false</default>
+        <label>Curatorial</label>
+    </customValue>
+    <customValue>
+        <fullName>Exhibition</fullName>
+        <default>false</default>
+        <label>Exhibition</label>
+    </customValue>
+    <customValue>
+        <fullName>Exhibition Underwriting</fullName>
+        <default>false</default>
+        <label>Exhibition Underwriting</label>
+    </customValue>
+    <customValue>
+        <fullName>Gala Auction</fullName>
+        <default>false</default>
+        <label>Gala Auction</label>
+    </customValue>
+    <customValue>
+        <fullName>Gala Donation</fullName>
+        <default>false</default>
+        <label>Gala Donation</label>
+    </customValue>
+    <customValue>
+        <fullName>Gala Fund the Future</fullName>
+        <default>false</default>
+        <label>Gala Fund the Future</label>
+    </customValue>
+    <customValue>
+        <fullName>Gala Sponsor</fullName>
+        <default>false</default>
+        <label>Gala Sponsor</label>
+    </customValue>
+    <customValue>
+        <fullName>Gala Tickets / Tables</fullName>
+        <default>false</default>
+        <label>Gala Tickets / Tables</label>
+    </customValue>
+    <customValue>
+        <fullName>Honor / Memorial</fullName>
+        <default>false</default>
+        <label>Honor / Memorial</label>
+    </customValue>
+    <customValue>
+        <fullName>In Kind</fullName>
+        <default>false</default>
+        <label>In Kind</label>
+    </customValue>
+    <customValue>
+        <fullName>Membership</fullName>
+        <default>false</default>
+        <label>Membership</label>
+    </customValue>
+    <customValue>
+        <fullName>MuSE Program</fullName>
+        <default>false</default>
+        <label>MuSE Program</label>
+    </customValue>
+    <customValue>
+        <fullName>Photo Guild</fullName>
+        <default>false</default>
+        <label>Photo Guild</label>
+    </customValue>
+    <customValue>
+        <fullName>Scholarships</fullName>
+        <default>false</default>
+        <label>Scholarships</label>
+    </customValue>
+    <customValue>
+        <fullName>Sponsorship</fullName>
+        <default>false</default>
+        <label>Sponsorship</label>
+    </customValue>
+    <customValue>
+        <fullName>Underwriting</fullName>
+        <default>false</default>
+        <label>Underwriting</label>
+    </customValue>
+    <customValue>
+        <fullName>Wet Paint Auction</fullName>
+        <default>false</default>
+        <label>Wet Paint Auction</label>
+    </customValue>
+    <customValue>
+        <fullName>Wet Paint Conservation</fullName>
+        <default>false</default>
+        <label>Wet Paint Conservation</label>
+    </customValue>
+    <customValue>
+        <fullName>Wet Paint Donor</fullName>
+        <default>false</default>
+        <label>Wet Paint Donor</label>
+    </customValue>
+    <customValue>
+        <fullName>Wet Paint Sponsor</fullName>
+        <default>false</default>
+        <label>Wet Paint Sponsor</label>
+    </customValue>
+    <customValue>
+        <fullName>Winter Speaker Series</fullName>
+        <default>false</default>
+        <label>Winter Speaker Series</label>
+    </customValue>
+    <description>Appeals represent specific asks for donations that the museum solicits on.</description>
+    <masterLabel>Gifts – Appeals</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
