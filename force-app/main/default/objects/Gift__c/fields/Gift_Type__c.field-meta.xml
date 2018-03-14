@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gift_Type__c</fullName>
+    <description>This field allows us to specify a gift type for this gift.</description>
+    <externalId>false</externalId>
+    <label>Gift Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Gift_Gift_Type</valueSetName>
+    </valueSet>
+</CustomField>
