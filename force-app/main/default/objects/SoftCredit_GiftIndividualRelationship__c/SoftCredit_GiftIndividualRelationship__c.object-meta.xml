@@ -55,8 +55,9 @@
     <enableStreamingApi>true</enableStreamingApi>
     <label>Soft Credit</label>
     <nameField>
-        <label>Soft Credit Name</label>
-        <type>Text</type>
+        <displayFormat>SC-GI-{00000}</displayFormat>
+        <label>Soft Credit ID</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Soft Credit</pluralLabel>
     <searchLayouts/>

@@ -63,6 +63,9 @@
                 <behavior>Required</behavior>
                 <field>Appeal_Year__c</field>
             </layoutItems>
+            <layoutItems>
+                <emptySpace>true</emptySpace>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -145,13 +148,36 @@
         <fields>TASK.LAST_UPDATE</fields>
         <relatedList>RelatedHistoryList</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>Organization__c</fields>
+        <relatedList>HardCredit_GiftOrganizationRelationship__c.Gift__c</relatedList>
+        <sortField>Organization__c</sortField>
+        <sortOrder>Asc</sortOrder>
+    </relatedLists>
+    <relatedLists>
+        <fields>Organization__c</fields>
+        <relatedList>SoftCredit_GiftOrganizationRelationship__c.Gift__c</relatedList>
+        <sortField>Organization__c</sortField>
+        <sortOrder>Asc</sortOrder>
+    </relatedLists>
+    <relatedLists>
+        <fields>Individual__c</fields>
+        <relatedList>HardCredit_GiftIndividualRelationship__c.Gift__c</relatedList>
+        <sortField>Individual__c</sortField>
+        <sortOrder>Asc</sortOrder>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>Individual__c</fields>
+        <relatedList>SoftCredit_GiftIndividualRelationship__c.Gift__c</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hR0000000bmRT</masterLabel>
+        <masterLabel>00h0v000000Z85r</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
