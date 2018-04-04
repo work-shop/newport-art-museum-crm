@@ -10,10 +10,10 @@
     <formFactors>Large</formFactors>
     <label>Newport Art Museum</label>
     <navType>Standard</navType>
-    <tabs>Gift__c</tabs>
     <tabs>Individual__c</tabs>
     <tabs>Household__c</tabs>
     <tabs>Organization__c</tabs>
+    <tabs>Gift__c</tabs>
     <tabs>Membership__c</tabs>
     <tabs>Constituent_Code__c</tabs>
     <tabs>Card__c</tabs>

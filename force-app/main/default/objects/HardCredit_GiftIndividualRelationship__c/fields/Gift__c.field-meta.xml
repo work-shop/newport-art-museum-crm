@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gift__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>This field records the gift that should be hard credited to the individual attached to this record.</description>
+    <externalId>false</externalId>
+    <label>Gift</label>
+    <referenceTo>Gift__c</referenceTo>
+    <relationshipLabel>Hard Credits to Individuals</relationshipLabel>
+    <relationshipName>Hard_Credit</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
