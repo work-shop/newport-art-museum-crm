@@ -43,7 +43,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SoftCredit_GiftIndividual__c.Gift__c</field>
+        <field>SoftCredit_GiftIndividualRelationship__c.Gift__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -79,7 +79,7 @@
         <layout>Organization__c-Organization Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SoftCredit_GiftIndividual__c-Soft Credit Layout</layout>
+        <layout>SoftCredit_GiftIndividualRelationship__c-Soft Credit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SoftCredit_GiftOrganizationRelationship__c-Soft Credit Layout</layout>
@@ -156,6 +156,24 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Link_IndividualIndividualRelationship__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Link_IndividualOrganizationRelationship__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Membership__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -174,7 +192,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>SoftCredit_GiftIndividual__c</object>
+        <object>SoftCredit_GiftIndividualRelationship__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -195,10 +213,6 @@
         <object>Template__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <tabVisibilities>
-        <tab>Individual__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

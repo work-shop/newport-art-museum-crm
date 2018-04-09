@@ -43,7 +43,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SoftCredit_GiftIndividual__c.Gift__c</field>
+        <field>SoftCredit_GiftIndividualRelationship__c.Gift__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -79,7 +79,7 @@
         <layout>Organization__c-Organization Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SoftCredit_GiftIndividual__c-Soft Credit Layout</layout>
+        <layout>SoftCredit_GiftIndividualRelationship__c-Soft Credit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SoftCredit_GiftOrganizationRelationship__c-Soft Credit Layout</layout>
@@ -87,10 +87,6 @@
     <layoutAssignments>
         <layout>Template__c-Template Layout</layout>
     </layoutAssignments>
-    <tabVisibilities>
-        <tab>Individual__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
