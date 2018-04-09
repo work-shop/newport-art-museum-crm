@@ -8,6 +8,11 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Gift_GiftMembershipRelationship__c.Membership__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Gift__c.Acknowledged__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -43,6 +48,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Link_IndividualHouseholdRelationship__c.Head_of_Household__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Link_IndividualOrganizationRelationship__c.Relationship__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SoftCredit_GiftIndividualRelationship__c.Gift__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -58,6 +73,9 @@
         <layout>Constituent_Code__c-Constituent Code Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Gift_GiftMembershipRelationship__c-Sponsoring Gift Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Gift__c-Gift Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -71,6 +89,15 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Individual__c-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Link_IndividualHouseholdRelationship__c-Household Membership Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Link_IndividualIndividualRelationship__c-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Link_IndividualOrganizationRelationship__c-Organization Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Membership__c-Membership Layout</layout>

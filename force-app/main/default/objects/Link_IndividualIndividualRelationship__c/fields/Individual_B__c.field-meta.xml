@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Individual_B__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>This field captures one of the individuals in this junction relationship.</description>
+    <externalId>false</externalId>
+    <label>Individual</label>
+    <referenceTo>Individual__c</referenceTo>
+    <relationshipLabel>Individual</relationshipLabel>
+    <relationshipName>Individual_to_Individual_Relationships1</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

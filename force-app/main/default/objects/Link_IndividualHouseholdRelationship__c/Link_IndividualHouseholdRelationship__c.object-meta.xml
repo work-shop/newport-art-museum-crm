@@ -43,7 +43,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This Junction Object captures relationships between individuals.</description>
+    <description>This Junction Object relates individuals with the households they belong to.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
@@ -53,15 +53,14 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Individual-to-Individual Relationship</label>
+    <label>Household Membership</label>
     <nameField>
-        <displayFormat>L-II-{00000}</displayFormat>
-        <label>Individual Link ID</label>
+        <displayFormat>HM-IH-{00000}</displayFormat>
+        <label>Household Membership ID</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Individual-to-Individual Relationships</pluralLabel>
+    <pluralLabel>Household Memberships</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
 </CustomObject>
