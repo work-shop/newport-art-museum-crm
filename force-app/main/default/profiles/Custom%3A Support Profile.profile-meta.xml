@@ -91,6 +91,9 @@
         <layout>Individual__c-Individual Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Link_IndividualConstituentCode__c-Individual Constituent Code Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Link_IndividualHouseholdRelationship__c-Household Membership Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -114,10 +117,6 @@
     <layoutAssignments>
         <layout>Template__c-Template Layout</layout>
     </layoutAssignments>
-    <tabVisibilities>
-        <tab>Card__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

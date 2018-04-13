@@ -91,6 +91,9 @@
         <layout>Individual__c-Individual Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Link_IndividualConstituentCode__c-Individual Constituent Code Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Link_IndividualHouseholdRelationship__c-Household Membership Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -192,6 +195,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Link_IndividualConstituentCode__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Link_IndividualHouseholdRelationship__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -258,10 +270,6 @@
         <object>Template__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <tabVisibilities>
-        <tab>Card__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

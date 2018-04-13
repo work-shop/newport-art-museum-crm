@@ -43,24 +43,24 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Constituent Codes are unique codes that identify groups of individuals, households, or organizations.</description>
-    <enableActivities>true</enableActivities>
+    <description>This junction object relates individuals to the constituent codes that they've been assigned to.</description>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>true</enableHistory>
-    <enableReports>true</enableReports>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Constituent Code</label>
+    <label>Constituent Code Assignment</label>
     <nameField>
-        <label>Constituent Code Name</label>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <displayFormat>CODE-ICC-{00000}</displayFormat>
+        <label>Individual Constituent Code ID</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Constituent Codes</pluralLabel>
+    <pluralLabel>Constituent Code Assignments</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
