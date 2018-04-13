@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Individual__c</fullName>
-    <description>This field records the individual who should be soft credited with the gift.</description>
+    <description>This field captures the individual that is associated with the membership on the other end of this junction.</description>
     <externalId>false</externalId>
     <label>Individual</label>
     <referenceTo>Individual__c</referenceTo>
-    <relationshipLabel>Soft Credits</relationshipLabel>
-    <relationshipName>Soft_Credit</relationshipName>
+    <relationshipLabel>Memberships</relationshipLabel>
+    <relationshipName>Individual_to_Membership_Relationships</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>

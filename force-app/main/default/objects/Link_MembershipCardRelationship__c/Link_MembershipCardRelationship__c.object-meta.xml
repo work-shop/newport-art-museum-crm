@@ -43,24 +43,24 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Templates represent specific Adobe InDesign files that are meant to be merged with particular recordsets to create branded Newport Art Museum communications. This includes InDesign templates for letters or membership cards.</description>
+    <description>This junction object represents the connection between membership cards and the memberships that govern them.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Template</label>
+    <label>Membership Card Relationship</label>
     <nameField>
-        <displayFormat>Template-{0000}</displayFormat>
-        <label>Template Name</label>
+        <displayFormat>Membership-Card-{00000}</displayFormat>
+        <label>Membership Card Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Templates</pluralLabel>
+    <pluralLabel>Membership Card Relationships</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

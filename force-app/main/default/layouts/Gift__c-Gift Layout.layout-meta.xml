@@ -130,45 +130,23 @@
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
-        <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHO_NAME</fields>
-        <fields>ACTIVITY.TASK</fields>
-        <fields>TASK.DUE_DATE</fields>
-        <fields>TASK.STATUS</fields>
-        <fields>TASK.PRIORITY</fields>
-        <fields>CORE.USERS.FULL_NAME</fields>
-        <relatedList>RelatedActivityList</relatedList>
+        <fields>Membership__c.NAME</fields>
+        <relatedList>Gift_GiftMembershipRelationship__c.Gift__c</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHO_NAME</fields>
-        <fields>ACTIVITY.TASK</fields>
-        <fields>TASK.DUE_DATE</fields>
-        <fields>CORE.USERS.FULL_NAME</fields>
-        <fields>TASK.LAST_UPDATE</fields>
-        <relatedList>RelatedHistoryList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Organization__c</fields>
+        <fields>Organization__c.NAME</fields>
         <relatedList>HardCredit_GiftOrganizationRelationship__c.Gift__c</relatedList>
-        <sortField>Organization__c</sortField>
-        <sortOrder>Asc</sortOrder>
     </relatedLists>
     <relatedLists>
-        <fields>Organization__c</fields>
+        <fields>Organization__c.NAME</fields>
         <relatedList>SoftCredit_GiftOrganizationRelationship__c.Gift__c</relatedList>
-        <sortField>Organization__c</sortField>
-        <sortOrder>Asc</sortOrder>
     </relatedLists>
     <relatedLists>
-        <fields>Individual__c</fields>
+        <fields>Individual__c.NAME</fields>
         <relatedList>HardCredit_GiftIndividualRelationship__c.Gift__c</relatedList>
-        <sortField>Individual__c</sortField>
-        <sortOrder>Asc</sortOrder>
     </relatedLists>
     <relatedLists>
-        <fields>NAME</fields>
-        <fields>Individual__c</fields>
+        <fields>Individual__c.NAME</fields>
         <relatedList>SoftCredit_GiftIndividualRelationship__c.Gift__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
@@ -177,7 +155,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0v000000Z85r</masterLabel>
+        <masterLabel>00h17000002p7L9</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

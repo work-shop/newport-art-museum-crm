@@ -53,14 +53,14 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Sponsoring Gift</label>
+    <label>Sponsoring Gift Relationship</label>
     <nameField>
         <displayFormat>SG-GM-{00000}</displayFormat>
         <label>Sponsoring Gift Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Sponsoring Gifts</pluralLabel>
+    <pluralLabel>Sponsoring Gift Relationships</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

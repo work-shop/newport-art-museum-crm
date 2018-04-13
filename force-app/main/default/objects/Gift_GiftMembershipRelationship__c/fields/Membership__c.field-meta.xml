@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Membership__c</fullName>
-    <deleteConstraint>SetNull</deleteConstraint>
     <description>This field captures the membership that was paid for by the gift on the other side of this Junction Object.</description>
     <externalId>false</externalId>
     <label>Membership</label>
     <referenceTo>Membership__c</referenceTo>
-    <relationshipLabel>Sponsoring Gifts</relationshipLabel>
     <relationshipName>Sponsoring_Gifts</relationshipName>
-    <required>false</required>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>
-    <type>Lookup</type>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
 </CustomField>

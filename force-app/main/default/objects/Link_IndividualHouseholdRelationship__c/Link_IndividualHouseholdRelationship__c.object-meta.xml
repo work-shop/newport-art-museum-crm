@@ -53,14 +53,14 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Household Membership</label>
+    <label>Household Relationship</label>
     <nameField>
         <displayFormat>HM-IH-{00000}</displayFormat>
         <label>Household Membership ID</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Household Memberships</pluralLabel>
+    <pluralLabel>Household Relationships</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

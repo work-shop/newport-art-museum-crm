@@ -8,11 +8,6 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Gift_GiftMembershipRelationship__c.Membership__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Gift__c.Acknowledged__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -53,21 +48,19 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Link_IndividualIndividualRelationship__c.Individual_A__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Link_IndividualOrganizationRelationship__c.Relationship__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SoftCredit_GiftIndividualRelationship__c.Gift__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SoftCredit_GiftOrganizationRelationship__c.Organization__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>Card__c-Card Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Code_IndividualConstituentCode__c-Individual Constituent Code Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Constituent_Code__c-Constituent Code Layout</layout>
@@ -91,7 +84,7 @@
         <layout>Individual__c-Individual Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Link_IndividualConstituentCode__c-Individual Constituent Code Layout</layout>
+        <layout>Link_IndividualCardRelationship__c-Individual-to-Card Relationship Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Link_IndividualHouseholdRelationship__c-Household Membership Layout</layout>
@@ -100,7 +93,13 @@
         <layout>Link_IndividualIndividualRelationship__c-Individual Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Link_IndividualMembershipRelationship__c-Individual-to-Membership Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Link_IndividualOrganizationRelationship__c-Organization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Link_MembershipCardRelationship__c-Membership Card Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Membership__c-Membership Layout</layout>
@@ -117,6 +116,10 @@
     <layoutAssignments>
         <layout>Template__c-Template Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>Template__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
