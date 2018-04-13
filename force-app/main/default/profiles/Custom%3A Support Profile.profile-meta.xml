@@ -114,6 +114,10 @@
     <layoutAssignments>
         <layout>Template__c-Template Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>Card__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
