@@ -56,6 +56,11 @@
         <field>Link_IndividualOrganizationRelationship__c.Relationship__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Organization__c.RE_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Card__c-Card Layout</layout>
     </layoutAssignments>
@@ -116,10 +121,6 @@
     <layoutAssignments>
         <layout>Template__c-Template Layout</layout>
     </layoutAssignments>
-    <tabVisibilities>
-        <tab>Template__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Deceased</fullName>
+        <default>false</default>
+        <label>Deceased</label>
+    </customValue>
+    <customValue>
+        <fullName>Do Not Call</fullName>
+        <default>false</default>
+        <label>Do Not Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Do Not Contact</fullName>
+        <default>false</default>
+        <label>Do Not Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Do Not Email</fullName>
+        <default>false</default>
+        <label>Do Not Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Do Not Mail</fullName>
+        <default>false</default>
+        <label>Do Not Mail</label>
+    </customValue>
+    <customValue>
+        <fullName>Do Not Solicit</fullName>
+        <default>false</default>
+        <label>Do Not Solicit</label>
+    </customValue>
+    <customValue>
+        <fullName>Do Not Solicit Membership</fullName>
+        <default>false</default>
+        <label>Do Not Solicit Membership</label>
+    </customValue>
+    <description>This picklist specifies the possible solicit codes for Individuals</description>
+    <masterLabel>Individual – Solicit Codes</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
