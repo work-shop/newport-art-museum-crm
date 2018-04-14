@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seasonal_or_Primary_Validation</fullName>
+    <active>true</active>
+    <description>This</description>
+    <errorConditionFormula>AND(Primary__c = TRUE, Seasonal__c = True)</errorConditionFormula>
+    <errorMessage>An address cannot be both a primary address and a seasonal address.</errorMessage>
+</ValidationRule>

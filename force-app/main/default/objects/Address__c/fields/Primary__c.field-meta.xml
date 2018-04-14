@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is checked when this address represents the primary, core address associated with this Organization or Household. This address is the default address.</description>
+    <externalId>false</externalId>
+    <label>Primary</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

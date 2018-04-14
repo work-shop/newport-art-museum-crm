@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seasonal_Active_Until_Validation</fullName>
+    <active>true</active>
+    <description>This validation checks whether a seasonal address has an end date.</description>
+    <errorConditionFormula>AND(Seasonal__c = TRUE, Active_Until__c = "" )</errorConditionFormula>
+    <errorDisplayField>Active_Until__c</errorDisplayField>
+    <errorMessage>Make sure to enter when this seasonal address ends effect.</errorMessage>
+</ValidationRule>
