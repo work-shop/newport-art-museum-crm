@@ -43,7 +43,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>This is a custom address object that implements address requirements specific to the Newport Art Museum's needs.</description>
+    <description>This custom object represents a phone number.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableChangeDataCapture>false</enableChangeDataCapture>
@@ -53,15 +53,14 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Custom Address</label>
+    <label>Phone</label>
     <nameField>
-        <displayFormat>Address-{00000}</displayFormat>
-        <label>Address ID</label>
+        <displayFormat>Phone-{00000}</displayFormat>
+        <label>Phone ID</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Custom Addresses</pluralLabel>
+    <pluralLabel>Phones</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
 </CustomObject>

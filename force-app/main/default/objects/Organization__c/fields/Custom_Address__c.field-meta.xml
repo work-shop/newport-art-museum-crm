@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Address__c</fullName>
+    <fullName>Custom_Address__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>This field represents an organization's address.</description>
+    <description>This field holds a custom address for this particular organization.</description>
     <externalId>false</externalId>
-    <label>Address</label>
-    <referenceTo>Address</referenceTo>
+    <label>Custom Address</label>
+    <referenceTo>Address__c</referenceTo>
     <relationshipLabel>Organizations</relationshipLabel>
     <relationshipName>Organizations</relationshipName>
     <required>false</required>

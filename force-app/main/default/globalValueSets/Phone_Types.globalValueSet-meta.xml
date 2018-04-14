@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cell</fullName>
+        <default>false</default>
+        <label>Cell</label>
+    </customValue>
+    <customValue>
+        <fullName>Home</fullName>
+        <default>false</default>
+        <label>Home</label>
+    </customValue>
+    <customValue>
+        <fullName>Work</fullName>
+        <default>false</default>
+        <label>Work</label>
+    </customValue>
+    <description>This picklist represents phone types.</description>
+    <masterLabel>Phone – Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
