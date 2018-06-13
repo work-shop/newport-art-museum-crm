@@ -51,7 +51,6 @@
     </layoutSections>
     <relatedLists>
         <fields>Individual__c.NAME</fields>
-        <fields>Individual__c</fields>
         <fields>Head_of_Household__c</fields>
         <relatedList>Link_IndividualHouseholdRelationship__c.Household__c</relatedList>
     </relatedLists>
